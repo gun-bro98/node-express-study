@@ -43,5 +43,7 @@ module.exports = class User extends Sequelize.Model {
     });
   }
   // 다른 모델과의 관계를 적는 메서드
-  static associate(db) {}
+  static associate(db) {
+    db.User.hasMany(db.Comment, {foreignKey: 'commenter', sourceKey: 'id'});
+  }
 };
