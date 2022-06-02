@@ -3,12 +3,14 @@ const path = require('path');
 const morgan = require('morgan');
 const nunjucks = require('nunjucks');
 
-const { sequelize } = require('./models');
-//const indexRouter = require('./routes');
-//const usersRouter = require('./routes/users');
+//const { sequelize } = require('./models');
+const indexRouter = require('./routes');
+const usersRouter = require('./routes/users');
+const sequelize = require('./models').sequelize;
 //const commentsRouter = require('./routes/comments');
 
 const app = express();
+sequelize.sync();
 app.set('port', process.env.PORT || 3001);
 app.set('view engine', 'html');
 nunjucks.configure('views', {

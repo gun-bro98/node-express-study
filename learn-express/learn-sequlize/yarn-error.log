@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\didwn\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add sequlize mysql2
+
+PATH: 
+  C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\NAT Service;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Users\didwn\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\didwn\AppData\Local\Programs\Python\Python37\;C:\Users\didwn\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\didwn\AppData\Local\Programs\Microsoft VS Code\bin;C:\selenium;C:\Program Files\dotnet\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\PuTTY\;C:\GnuWin32\bin;C:\Program Files\Git\cmd;C:\Users\didwn\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\didwn\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\didwn\AppData\Local\Programs\Python\Python37\;C:\Users\didwn\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\didwn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\didwn\.dotnet\tools;C:\Users\didwn\AppData\Roaming\npm;C:\Users\didwn\AppData\Roaming\nvm;C:\Program Files\nodejs;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.3.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/sequlize: Not found
+      at Request.params.callback [as _callback] (C:\Users\didwn\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\didwn\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\didwn\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\didwn\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "learn-sequlize",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "express": "~4.16.1",
+      "http-errors": "~1.6.3",
+      "morgan": "~1.9.1",
+      "pug": "2.0.0-beta11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
